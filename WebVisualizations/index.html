@@ -14,13 +14,18 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Equator</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <!--########### NAVBAR ################## -->
+    <!-- I take a navbar from boostrap and i have to specify the justify content in order to divide toggles -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Add and icon and image -->
+      <a class="navbar-brand" href="#">
+        <img src="Images/icono.png" width="40" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Equator
+      </a>
+      
+      <!-- I just modified the name of default toggles -->
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
@@ -47,9 +52,19 @@
         </div>
     </nav>
 
+
+
+<!-- ##########  FIRST CONTAINER WITH DESCRIPTION ###########-->
+
+  <div class="container" id="First_Container">
+    <div class="row">
+
     <h1>THE EQUATOR WEATHER EFFECT</h1>
 
-    
+    </div>
+
+
+    <div class="row">
     <p>
         The porpouse of this project was to make suffer some students with crazy questions worthy of an flat-earther. 
         Is it true that once you get closer to the equator you'll feel more and more heat. At first glance it seems easy to answer,
@@ -58,12 +73,15 @@
     </p>
 
     <img src="Images/sun.png" alt="ok genius how you can demostrate this">
+    
+    </div>
+
+  </div>
+
+<!-- ##########  SECOND CONTAINER WITH VISUALIZATIONS ###########-->
 
 
-
-
-
-
+<!-- ########## END IGNORE ######### -->
 
 <!-- Boostrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
