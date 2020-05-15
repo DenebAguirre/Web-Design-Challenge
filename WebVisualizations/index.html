@@ -7,6 +7,7 @@
 
     <!-- Link to Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Link to my own stylesheet -->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -14,23 +15,30 @@
 
 <body>
 
-  <!--########### NAVBAR ################## -->
-    <!-- I take a navbar from boostrap and i have to specify the justify content in order to divide toggles -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+<div class="container"></div>
+
+  <!--########### FIRST ROW IS A NAVBAR ################## -->
+  <div class="row" >
+    <div class="col"> 
+    
+    <!-- I take a navbar from boostrap and i have to specify justify content in order to divide toggles -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between" id="navegacion">
       
       <!-- Add and icon and image -->
       <a class="navbar-brand" href="#">
-        <img src="Images/icono.png" width="40" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        <img src="Images/icono.png" width="30" class="d-inline-block align-top" alt="" loading="lazy">
         Equator
       </a>
       
-      <!-- I just modified the name of default toggles -->
+      <!-- I just modified the name of default toggles and added links to the different pages-->
         <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+
+  
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
             </li>
-
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
@@ -49,37 +57,115 @@
                 <a class="nav-link" href="#">Data</a>
               </li>
           </ul>
-        </div>
+        </div>  
     </nav>
-
-
-
-<!-- ##########  FIRST CONTAINER WITH DESCRIPTION ###########-->
-
-  <div class="container" id="First_Container">
-    <div class="row">
-
-    <h1>THE EQUATOR WEATHER EFFECT</h1>
-
     </div>
+  </div>
 
 
-    <div class="row">
-    <p>
-        The porpouse of this project was to make suffer some students with crazy questions worthy of an flat-earther. 
-        Is it true that once you get closer to the equator you'll feel more and more heat. At first glance it seems easy to answer,
-        but when they ask you for some proofs, it becomes difficoult to say a word. As long as we are not scientist,
-        we have to answer this questions with our new Data Analyst superpowers. And here you can check our magnificent results.
-    </p>
 
-    <img src="Images/sun.png" alt="ok genius how you can demostrate this">
+ <!-- ##########  SECOND ROW IS FOR EXPLANATION ###########-->
+  <div class= "row">
+    <div class="col-md-3"> 
+      <div class="title_box">
+      <h1>THE EQUATOR WEATHER EFFECT</h1>
+      </div>
+    </div>
+        
+    <div class="col-md-6"> 
+      <div class= "row">
+        <div class="text_box">
+        <p class="text-justify">
+          The porpouse of this project was to make suffer some students with crazy questions worthy of an flat-earther. 
+          Is it true that once you get closer to the equator you'll feel more and more heat. 
+          At first glance it seems easy to answer,
+          but when they ask you for some proofs, it becomes difficoult to say a word. As long as we are not scientist,
+          we have to answer this questions with our new Data Analyst superpowers. And here you can check our magnificent results.
+      </p> 
+        </div>
+
+      </div>
+      <div class= "row">
+        <img src="Images/sun.png" alt="ok genius how you can demostrate this" width="500">
+      </div>
+      
+
+
     
+         
+
+      </div>
+  </div>   
+
+    
+  <!-- ##########  FOURTH ROW WITH VISUALIZATIONS ###########-->
+
+    <div class="row"> 
+      
+           <!-- CARD 1-->
+           <div class="col-3">
+           <div class="p-2 bd-highlight">
+           <div class="card" style="width: 18rem;">
+            <img src="Images/Fig1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          </div> 
+          </div>
+             <!-- CARD 2-->
+            <div class="col-3">
+             <div class="p-2 bd-highlight">
+             <div class="card" style="width: 18rem;">
+              <img src="Images/Fig2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            </div>
+            </div>
+
+             <!-- CARD 3-->
+             <div class="col-3"> 
+             <div class="p-2 bd-highlight">
+             <div class="card" style="width: 18rem;">
+              <img src="Images/Fig3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+             <!-- CARD 4-->
+             <div class="col-3">
+             <div class="p-2 bd-highlight">
+             <div class="card" style="width: 18rem;">
+              <img src="Images/Fig4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        
+      </div>   
+    </div> 
+
+  <!-- ##########  FIFTH ROW IS FOR BOTTOM ###########-->
+        
+     <!-- END-->
+                
     </div>
 
   </div>
-
-<!-- ##########  SECOND CONTAINER WITH VISUALIZATIONS ###########-->
-
 
 <!-- ########## END IGNORE ######### -->
 

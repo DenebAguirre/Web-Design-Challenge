@@ -1,4 +1,25 @@
-#First_Container {
-    background-color: brown;
+body {
+    background-image: linear-gradient(to right top, #00df1e,
+     #00eb8b, #00f3ce, #6cf6f5, #c4f5ff, #d0f3ff,
+      #def1ff, #e9efff, #cee6ff, #aadeff, #78d8ff, #05d2ff);
+}
+ 
+
+.container { background-image: linear-gradient(to right top, #00df1e,
+    #00eb8b, #00f3ce, #6cf6f5, #c4f5ff, #d0f3ff,
+     #def1ff, #e9efff, #cee6ff, #aadeff, #78d8ff, #05d2ff)
 }
 
+.title_box { 
+    background-color: #05d2ff ;
+    text-decoration-color: #e9efff;
+}
+
+h1 {
+    color: #e9efff;
+}
+
+.text_box {
+    background-color: #e9efff;
+    padding: 10px;
+    {
