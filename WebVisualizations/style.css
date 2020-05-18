@@ -1,25 +1,35 @@
 body {
-    background-image: linear-gradient(to right top, #00df1e,
-     #00eb8b, #00f3ce, #6cf6f5, #c4f5ff, #d0f3ff,
-      #def1ff, #e9efff, #cee6ff, #aadeff, #78d8ff, #05d2ff);
+    background-image: linear-gradient(to left, #05d2ff, #78d8ff, #aadeff,
+     #cee6ff, #e9efff, #e9efff, #e9efff, #e9efff,
+      #cee6ff, #aadeff, #78d8ff, #05d2ff);
 }
- 
 
-.container { background-image: linear-gradient(to right top, #00df1e,
-    #00eb8b, #00f3ce, #6cf6f5, #c4f5ff, #d0f3ff,
-     #def1ff, #e9efff, #cee6ff, #aadeff, #78d8ff, #05d2ff)
-}
 
 .title_box { 
     background-color: #05d2ff ;
     text-decoration-color: #e9efff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 
-h1 {
-    color: #e9efff;
+h1,h6 {
+    color: #ffffff;
+}
+
+img {
+    padding: 20px;
+    border-radius: 40px;
 }
 
 .text_box {
-    background-color: #e9efff;
-    padding: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     {
